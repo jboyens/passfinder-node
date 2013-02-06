@@ -15,7 +15,10 @@
   },
   "devDependencies": {
     "jasmine-node": "*",
-    "grunt-jasmine-node": "*"
+    "grunt": "*",
+    "grunt-jasmine-node": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-check-modules": "*"
   },
   "license": "MIT",
   "engines": {
