@@ -1,0 +1,25 @@
+{
+  "name": "passfinder-node",
+  "version": "0.0.1",
+  "author": "JR Boyens <jboyens@fooninja.org>",
+  "description": "Node.js interface to the SFPL free family museum pass system",
+  "main": "./lib/passfinder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jboyens/passfinder-node.git"
+  },
+  "dependencies" : {
+    "request": "*",
+    "cheerio": "*",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "jasmine-node": "*",
+    "grunt-jasmine-node": "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
+
